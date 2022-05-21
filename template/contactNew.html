@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link  href="../static/style.css" rel="stylesheet"/>
+    <script defer src="myFunctions.js"></script>
+</head>
+<body>
+    <div class="header1">
+        pet food israel.<span class="catIcon" ><img src="../static/catIcon.jpg.png" alt=""style="width:60px" ></span>
+       </div>
+
+<nav class="navBar">
+        <ul>
+            <li id="homeNav"><a class="aLinks" href="homePageNew.html">Home</a></li>
+            <li id="conNav"><a class="aLinks" href="contactNew.html">Contact</a></li>
+        </ul>
+ </nav>
+
+
+
+       <div class="headerphoto">
+        <div class="headerphotoText"><h1>Where pets are a part of the family...</h1></div>
+    </div><br>
+       
+    
+    
+<span id="getDetails" >
+    
+    <span class="circles">
+        <div class="PhoneIcon"><i class="fa fa-phone" style="font-size:25px"></i></div>
+        <div  class="circlesdiv" id="circle1"></div>
+        <div class="circlesdiv" id="circle2"></div>
+    </span>
+    
+        <h1>Get in touch.</h1 id="touch"> <form action="URL">
+      
+
+        <label for="First Name">First Name</label><br>
+        <input class="inputClass" type="text" id="First Name" name="First Name" ><br><br>
+
+        <label for="last Name">last Name</label><br>
+        <input class="inputClass" type="text" id="last Name" name="last Name" ><br><br>
+
+        <label for="Date Of Birth">Date Of Birth</label><br>
+        <input class="inputClass" type="date" id="Date Of Birth" name="Date Of Birth" ><br><br>
+
+        <label for="email">email</label> <br>
+        <input class="inputClass" type="email" id="email" name="email"><br><br>
+
+        <label for="phone number">phone number</label> <br>
+        <input class="inputClass" type="tel" id="phone number" name="phone number"><br><br>
+        
+        <label for="number of pets">number of pets</label><br>
+        <input class="inputClass" type="number" id="number of pets" name="number of pets" ><br><br>
+            </form>
+
+        <span id="submitClick">
+            <button id="submitContact" class="click" onclick="typeWriter()">submit details</button><br>
+        </span>
+        <p id="errorMessage"></p>
+
+    </span>
+      
+</body>
+</html>
